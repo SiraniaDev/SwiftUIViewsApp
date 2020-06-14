@@ -13,6 +13,8 @@
 		243F4A1524956FE50012C754 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 243F4A1424956FE50012C754 /* Assets.xcassets */; };
 		243F4A1824956FE50012C754 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 243F4A1724956FE50012C754 /* Preview Assets.xcassets */; };
 		243F4A1B24956FE50012C754 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 243F4A1924956FE50012C754 /* LaunchScreen.storyboard */; };
+		243F4A232495E9C20012C754 /* ShadowSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243F4A222495E9C20012C754 /* ShadowSwiftUIView.swift */; };
+		243F4A262496082E0012C754 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243F4A252496082E0012C754 /* ColorExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		243F4A1724956FE50012C754 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		243F4A1A24956FE50012C754 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		243F4A1C24956FE50012C754 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		243F4A222495E9C20012C754 /* ShadowSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowSwiftUIView.swift; sourceTree = "<group>"; };
+		243F4A252496082E0012C754 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +44,7 @@
 		243F4A0224956FE00012C754 = {
 			isa = PBXGroup;
 			children = (
+				243F4A252496082E0012C754 /* ColorExtension.swift */,
 				243F4A0D24956FE00012C754 /* SwiftUIViewsApp */,
 				243F4A0C24956FE00012C754 /* Products */,
 			);
@@ -56,9 +61,9 @@
 		243F4A0D24956FE00012C754 /* SwiftUIViewsApp */ = {
 			isa = PBXGroup;
 			children = (
+				243F4A242495E9CE0012C754 /* SwiftUIIViews */,
 				243F4A0E24956FE00012C754 /* AppDelegate.swift */,
 				243F4A1024956FE00012C754 /* SceneDelegate.swift */,
-				243F4A1224956FE00012C754 /* ContentView.swift */,
 				243F4A1424956FE50012C754 /* Assets.xcassets */,
 				243F4A1924956FE50012C754 /* LaunchScreen.storyboard */,
 				243F4A1C24956FE50012C754 /* Info.plist */,
@@ -73,6 +78,15 @@
 				243F4A1724956FE50012C754 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		243F4A242495E9CE0012C754 /* SwiftUIIViews */ = {
+			isa = PBXGroup;
+			children = (
+				243F4A1224956FE00012C754 /* ContentView.swift */,
+				243F4A222495E9C20012C754 /* ShadowSwiftUIView.swift */,
+			);
+			path = SwiftUIIViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,7 +162,9 @@
 			files = (
 				243F4A0F24956FE00012C754 /* AppDelegate.swift in Sources */,
 				243F4A1124956FE00012C754 /* SceneDelegate.swift in Sources */,
+				243F4A232495E9C20012C754 /* ShadowSwiftUIView.swift in Sources */,
 				243F4A1324956FE00012C754 /* ContentView.swift in Sources */,
+				243F4A262496082E0012C754 /* ColorExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
